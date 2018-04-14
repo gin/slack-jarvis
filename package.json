@@ -1,0 +1,25 @@
+{
+  "name": "slack-jarvis",
+  "version": "0.0.1",
+  "description": "Slack Bot that gives us summaries of stuff, and keeps track of things we vote on",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.85.0",
+    "websocket": "^1.0.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gin/slack-jarvis.git"
+  },
+  "author": "Luigi <luigileung@gmail.com> (https://luigi.herokuapp.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gin/slack-jarvis/issues"
+  },
+  "homepage": "https://github.com/gin/slack-jarvis#readme"
+}
